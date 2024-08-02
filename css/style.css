@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+nav {
+    border-bottom: 2px solid #dbdbdb;
+    padding: 5px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.aling-intems {
+    align-items: center;
+}
+
+.logo {
+    flex-basis: 20%;
+}
+
+.cart {
+    flex-basis: 20%;
+    display: flex;
+    justify-content: end;
+}
+
+.menu {
+    display: flex;
+    flex-basis: 60%;
+    justify-content: center;
+}
+
+.menu li {
+    list-style: none;
+    padding: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: 5px;
+}
+
+.menu li a:hover {
+    background-color: #0a698a;
+    border-radius: 5px;
+    color: white;
+    transition: 0.7s;
+}
+
+.logo img {
+    width: 100%;
+    max-width: 60px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.cart {
+    gap: 10px;
+}
+
+.cart svg {
+    max-width: 30px;
+}
+
+/* banner section */
+.banner {
+    background-color: #0a698a;
+    padding: 15px;
+}
+
+.banner_content {
+    flex-basis: 40%;
+}
+
+.banner_content h1 {
+    color: white;
+    font-size: 65px;
+    text-transform: capitalize;
+    line-height: 79px;
+}
+.btn{
+    background-color: #3fd3ff;
+    border: 0;
+    color: white;
+    padding: 10px 30px;
+    font-size: 17px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* blog section */
+.blog_section{
+    margin-top: 70px;
+}
+.blog{
+    gap: 10px;
+}
+.blog_section h1{
+    font-size: 60px;
+    text-align: center;
+}
+.blog_container{
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 10px;
+    flex-basis: 32.33%;
+    max-width: 32.33%;
+    
+}
+
+
+
+.blog_container img{
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    
+}
+.blog{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+    align-items: center;
+}
+.blog svg{
+    width: 20px;
+    fill: rgb(251, 127, 115);
+}
+.date, .views {
+    gap:5px;
+    display: flex;
+    margin-bottom: 10px;
+   align-items: center;
+    color: gray;
+
+}
+
+
+.blog_content h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+
+.para{
+    margin-bottom: 10px;
+    color: gray;
+}
+.blog_content a{
+    text-decoration: none;
+    color: #0a698a;
+    
+    text-transform: uppercase;
+}
+.blog_btn {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    margin: auto;
+   
+}
+/* read_container */
+.read_container{
+    width: 100%;
+}
+.read_container img{
+    width: 100%;
+    object-fit: cover;
+}
+.read_container p{
+    color: gray;
+}
+.read_container, .para{
+ margin-bottom: 10px!important;
+ font-size: 20px;
+}
+.title{
+    margin-bottom: 20px;
+}
